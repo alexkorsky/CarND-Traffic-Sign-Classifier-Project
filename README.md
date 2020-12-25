@@ -115,12 +115,14 @@ I setteled on the learning rate of 0.0005 and the keep proability of 80%. After 
 After only 30 EPOCHs we had
 
 Training Accuracy = 0.996
+
 Validation Accuracy = 0.953
+
 Test Accuracy = 0.0.933
 
-I run 45 EPOCHs once and I saw that the result have improved but kept the  number at 30 to save GPU time
+I run 45 EPOCHs once and I saw that the results have improved but kept the  number at 30 to save GPU time
 
-With 30 EPOCHs I saw  validation accuracy was still growing. Usually it is a good idea to so an early stop when validation accracy stops improving.
+With 30 EPOCHs I saw  the validation accuracy was still growing. Usually it is a good idea to do an early stop when the validation accuracy stops improving.
 
 
 
@@ -128,22 +130,21 @@ With 30 EPOCHs I saw  validation accuracy was still growing. Usually it is a goo
 
 #### 1. Choose five German traffic signs found on the web and provide them in the report. For each image, discuss what quality or qualities might be difficult to classify.
 
-Here are five German traffic signs that I found on the web.
-I had to preprocess them to be of size 32x32. Possibly the techique I have chosen to do this transformaion resulted in sub-par performance of the network onthese particular sings.
+Here are seven  German traffic signs that I found on the web.
+I had to preprocess them to be of size 32x32. Possibly the techique I have chosen to do this transformation resulted in sub-par performance of the network on these particular signs.
 
 ![alt text](./GermanSignsOffTheWeb.png "German Road Signs")
 
 
 #### 2. Discuss the model's predictions on these new traffic signs and compare the results to predicting on the test set. At a minimum, discuss what the predictions were, the accuracy on these new predictions, and compare the accuracy to the accuracy on the test set (OPTIONAL: Discuss the results in more detail as described in the "Stand Out Suggestions" part of the rubric).
 
-The 
 Here are the results of the prediction:
 
 ![alt text](./ProducedGermanRoadSignsCaptions.png "Network produced these captions")
 
-Only 57% accuracy.
+Only 57% accuracy (4 out of 7).
 
-However the good news that teh corect cation was always present in the top 3 model predicitons for each of hte signs:
+However the good news was that  the corect caption was always present in the top 3 model predictions for each of the signs:
 
 ![alt text](./Result1.png "")
 ![alt text](./Result2.png "")
