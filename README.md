@@ -120,6 +120,8 @@ Validation Accuracy = 0.953
 
 Test Accuracy = 0.0.933
 
+
+
 I run 45 EPOCHs once and I saw that the results have improved but kept the  number at 30 to save GPU time
 
 With 30 EPOCHs I saw  the validation accuracy was still growing. Usually it is a good idea to do an early stop when the validation accuracy stops improving.
