@@ -141,9 +141,9 @@ Here are the results of the prediction:
 
 ![alt text](./ProducedGermanRoadSignsCaptions.png "Network produced these captions")
 
-Only 57% accuracy.
+Only 57% accuracy (4 out of 7.
 
-However the good news that teh corect cation was always present in the top 3 model predicitons for each of hte signs:
+However the good news was that  the corect caption was always present in the top 3 model predictions for each of the signs:
 
 ![alt text](./Result1.png "")
 ![alt text](./Result2.png "")
